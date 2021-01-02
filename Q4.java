@@ -4,7 +4,7 @@ public class Q4 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int max=1;;
+		int max=1;
 		int m=1;
 		int l=0;
 		int n=0;
