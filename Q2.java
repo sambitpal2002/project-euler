@@ -13,13 +13,13 @@ public class Q2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int fs=1;  //first number
-		int sn=2;  //second number 
+		int fs=1;  
+		int sn=2;   
 		int sum=0;
 		int evensum=0;
 		
-		while(sum<4000000) {          //sum should be less than   4million
-			sum=fs+sn;        //let number be 0,1,2,
+		while(sum<4000000) {          
+			sum=fs+sn;        
 			fs=sn;
 			sn=sum;
 			
