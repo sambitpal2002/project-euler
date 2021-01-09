@@ -13,15 +13,15 @@ public class Q48 {
 	}
 		 public String run() {
 		
-		  BigInteger modulus = BigInteger.TEN.pow(10);
+		  BigInteger x = BigInteger.TEN.pow(10);
 		
-		  BigInteger sum = BigInteger.ZERO;
+		  BigInteger s = BigInteger.ZERO;
 		
 		  for (int i = 1; i <= 1000; i++)
 		
-		   sum = sum.add(BigInteger.valueOf(i).modPow(BigInteger.valueOf(i), modulus));
+		   s = s.add(BigInteger.valueOf(i).modPow(BigInteger.valueOf(i), x));
 	
-		  return sum.mod(modulus).toString();
+		  return s.mod(x).toString();
 		 }}
 
 //OUTPUT:9110846700
