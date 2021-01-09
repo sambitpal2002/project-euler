@@ -13,13 +13,14 @@ public class Q2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int fs=1;  
-		int sn=2;   
+		int n=4000000;
+		int fs=0;  
+		int sn=1;  
 		int sum=0;
 		int evensum=0;
 		
-		while(sum<4000000) {          
-			sum=fs+sn;        
+		while(sum<n) {          
+			sum=fs+sn;       
 			fs=sn;
 			sn=sum;
 			
@@ -34,4 +35,23 @@ public class Q2 {
 
 }
 
-//OUTPUT: 4613730
+//OUTPUT:int n=4000000;
+		int fs=0;  
+		int sn=1;  
+		int sum=0;
+		int evensum=0;
+		
+		while(sum<n) {          
+			sum=fs+sn;       
+			fs=sn;
+			sn=sum;
+			
+			if(sum%2==0) {
+				evensum+=sum;
+			}
+		}
+		System.out.println(evensum);
+}
+}
+
+//OUTPUT:  4613732
