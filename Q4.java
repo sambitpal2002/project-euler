@@ -40,5 +40,5 @@ public class Q4 {
 
 }
 
-//OUTPUT:  993*913=906609
+//OUTPUT: 906609
 
